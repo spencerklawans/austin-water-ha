@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "username": "WaterSmart Email",
+          "password": "WaterSmart Password",
+          "email_host": "Namecheap IMAP host",
+          "email_port": "IMAP port (usually 993)",
+          "email_username": "Email username",
+          "email_password": "Email password",
+          "email_folder": "IMAP folder",
+          "subject_filter": "2FA subject filter",
+          "wait_time": "Seconds to wait for 2FA"
+        },
+        "description": "Authenticate to the Austin WaterSmart portal and optionally poll a Namecheap IMAP inbox for verification codes."
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to reach the portal."
+    }
+  }
+}
