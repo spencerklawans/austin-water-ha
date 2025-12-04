@@ -1,0 +1,10 @@
+{
+  "domain": "austin_water",
+  "name": "Austin WaterSmart",
+  "version": "0.1.0",
+  "documentation": "https://github.com/",
+  "requirements": [],
+  "codeowners": ["@your-handle"],
+  "config_flow": true,
+  "iot_class": "cloud_polling"
+}
