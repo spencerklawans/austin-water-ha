@@ -9,9 +9,16 @@ This custom integration logs into the [Austin WaterSmart portal](https://austint
 - Provides a sensor with the most recent hourly gallon reading and an attribute containing the full history for graphing.
 
 ## Installation
+### Option 1: Manual copy
 1. Copy the `custom_components/austin_water` folder into your Home Assistant `custom_components` directory.
 2. Restart Home Assistant.
 3. From **Settings → Devices & Services**, click **Add Integration** and search for **Austin Water**.
+
+### Option 2: HACS (recommended)
+1. In Home Assistant, open **HACS → Integrations → Custom repositories**.
+2. Add this repository URL (e.g., `https://github.com/your-user/austin-water-ha`) with category **Integration**.
+3. Install the **Austin WaterSmart** integration from the HACS list and restart Home Assistant when prompted.
+4. Proceed to **Settings → Devices & Services → Add Integration** and select **Austin Water**.
 
 ## Configuration
 The setup flow prompts for:

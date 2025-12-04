@@ -1,8 +1,9 @@
 {
   "domain": "austin_water",
   "name": "Austin WaterSmart",
-  "version": "0.1.0",
-  "documentation": "https://github.com/",
+  "version": "0.1.1",
+  "documentation": "https://github.com/your-user/austin-water-ha",
+  "issue_tracker": "https://github.com/your-user/austin-water-ha/issues",
   "requirements": [],
   "codeowners": ["@your-handle"],
   "config_flow": true,
